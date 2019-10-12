@@ -1,0 +1,43 @@
+/* Animations, Base, Typography, Utilities (Media Queries) */
+
+// Typography
+$font: 'Nunito', sans-serif;
+$light: 400;
+$heavy: 500;
+
+$fontsize: 1.1em;
+$subheader: 1.8em;
+$sml-font: 0.8em;
+
+// Primary Colors
+$darkblue: hsl(237°,60%, 31%);
+$purple: hsl(271°, 70%, 60%);
+$orange: hsl(0°, 79%, 63%);
+$green: hsl(145°, 63%, 42%);
+$lightblue: hsl(218°, 84%, 62%);
+
+// Neutral Colors
+$gray: hsl(234°, 29%, 93%);
+
+// Standard Colors
+$white: hsl(0, 100%, 100%);
+$black: hsl(0, 0%, 0%);
+
+// Misc
+$none: none;
+$hidden: hidden;
+$inherit: inherit;
+$nowrap: nowrap;
+
+// Globals
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  font-family: $font;
+  font-size: $fontsize;
+  overflow-x: $hidden;
+}
