@@ -1,0 +1,88 @@
+@import 'base';
+@import 'abstract';
+
+.landing-section {
+  min-height: 100vh;
+  background-image: linear-gradient($darkblue, $darkpurple);
+  position: relative;
+  // display: flex;
+  // justify-content: flex-start;
+  // flex-direction: column;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  color: white;
+}
+
+.navbar-wrapper {
+  padding-left: 1em;
+  padding-top: 1em;
+  @include flexbox(space-between);
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.navbar {
+  @include flexbox();
+}
+
+.nav-logo {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.nav-links {
+  @include flexbox;
+  list-style-type: $none;
+  padding: 0 2em;
+
+}
+
+.nav-item a {
+  text-decoration: $none;
+  text-transform: uppercase;
+  color: $darkblue;
+  padding: 20px 20px;
+  align-items: center;
+
+}
+
+.landing-main {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.landing-description-wrapper {
+  max-width: 700px;
+  height: 100%;
+  @include flexbox(center, center, column, wrap);
+
+}
+
+.landing-header {
+  font-size: 5em;
+  padding-bottom: 1.618rem;
+}
+
+.landing-description {
+  font-size: 1.6em;
+  width: 50%;
+  text-align: center;
+  padding-bottom: calc(1.618rem * 2 );
+
+}
+
+.landing-button {
+  padding: 12px 20px;
+  background: $green;
+  border-radius: 4rem;
+  color: white;
+  font-size: 1.3em;
+  border: none;
+
+}
+
