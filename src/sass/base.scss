@@ -45,3 +45,15 @@ body {
   font-size: $fontsize;
   overflow-x: $hidden;
 }
+
+.button {
+  background-color: $green;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: $fontsize;
+  border-radius: 1em;
+}
