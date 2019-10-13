@@ -10,8 +10,8 @@ const Footer = () => {
                     <li><a href="#!">Work</a></li>
                     <li><a href="#!">Contact</a></li>
                 </ul>
-                <p class="Privacy">Privacy Policy & Terms of Use</p>
                 <SocialIcons/>
+                <p class="Privacy">Privacy Policy & Terms of Use</p>
             </div>
         </div>
     )

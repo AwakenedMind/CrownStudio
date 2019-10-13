@@ -4,3 +4,39 @@
     background: $blueLinear;
     color: $white;
 }
+
+.Footer-links {
+    @include horizontal-list;
+
+    ul li{
+        display: inline;
+        text-decoration: none;
+        padding: 4em;
+        font-size: .8em;
+      }
+}
+
+.Social {
+    padding: 0 20px;
+
+}
+
+.Footer-nav {
+    @include horizontal-list;
+    padding: 1em;
+
+ 
+    li a{
+        text-decoration: none;
+        color: $white;
+        padding: 2em;
+        font-size: 1.3em;
+    }
+}
+
+.Privacy {
+    font-size: 0.8em;
+}
+
+
+

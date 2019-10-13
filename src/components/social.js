@@ -7,13 +7,13 @@ import MediumLogo from '../images/medium-logo.svg'
 
 const SocialIcons = () => {
     return (
-        <div class="Footer-links">
+        <div class="Footer-links">      
             <ul>
-            <li><img className ="social" src = {TwitterLogo}></img>Twitter</li>
-            <li><img className ="social" src = {FbLogo}></img>Facebook</li>
-            <li><img  className = "social" src = {InstaLogo}></img>Instagram</li>
-            <li><img className = "social" src ={LinkedinLogo}></img>LinkedIn</li>
-            <li><img className = "social" src ={MediumLogo}></img>Medium</li>
+            <li><img className ="Social" alt ="Twitter-logo" src = {TwitterLogo}></img>Twitter</li>
+            <li><img className ="Social" alt ="Facebook-logo" src = {FbLogo}></img>Facebook</li>
+            <li><img  className = "Social" alt ="Instagram-logo" src = {InstaLogo}></img>Instagram</li>
+            <li><img className = "Social" alt ="LinkedIn-logo" src ={LinkedinLogo}></img>LinkedIn</li>
+            <li><img className = "Social" alt ="Medium-logo" src ={MediumLogo}></img>Medium</li>
             </ul>
         </div>
     )
