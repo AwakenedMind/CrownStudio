@@ -1,5 +1,6 @@
 import React from 'react'
 import SocialIcons from '../components/social'
+import Company from '../components/company'
 
 const Footer = () => {
     return (
@@ -12,6 +13,7 @@ const Footer = () => {
                 </ul>
                 <SocialIcons/>
                 <p class="Privacy">Privacy Policy & Terms of Use</p>
+                {/* <Company /> */}
             </div>
         </div>
     )
