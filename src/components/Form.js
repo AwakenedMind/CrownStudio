@@ -21,7 +21,7 @@ const Form = () => {
                       Phone:
                       <input type="tel" name="Phone" />
                   </label>
-                  <Button text="Work together" />
+              <Button text="Work together" />
               </form>
           </div>
       </div>  
