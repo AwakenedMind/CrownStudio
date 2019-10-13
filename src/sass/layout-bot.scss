@@ -1,5 +1,29 @@
-//nav
+//form
 
+.Form-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+    padding: 8em 10em;
+}
+
+.Contact-svg {
+    grid-column: 1;
+    transform: scale(.8);
+}
+
+.Form {
+    grid-column: 2;
+
+    h1 {
+        text-align: center;
+        font-size: 3em;
+        color: $darkblue;
+        // transform: translateX(-150px);
+        margin-bottom: 2em;
+    }
+}
+
+//footer
 .Footer-wrapper {
     background: $blueLinear;
     color: $white;

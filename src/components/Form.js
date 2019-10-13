@@ -1,5 +1,5 @@
 import React from 'react'
-import FormImg from '../images/contact-illustration.svg'
+import FormImg from '../images/contact-us.svg'
 
 const Form = () => {
     return (
