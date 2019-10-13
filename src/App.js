@@ -1,9 +1,11 @@
 import React from 'react';
-
+import './sass/style.scss';
+import Landing from './components/landing'
 
 function App() {
   return (
     <div>
+      <Landing />
     </div>
   );
 }
