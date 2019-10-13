@@ -1,5 +1,6 @@
 import React from 'react'
 import FormImg from '../images/contact-us.svg'
+import Button from '../components/button'
 
 const Form = () => {
     return (
@@ -20,7 +21,7 @@ const Form = () => {
                       Phone:
                       <input type="tel" name="Phone" />
                   </label>
-                  <input type="submit" value ="Submit" />
+                  <Button text="Work together" />
               </form>
           </div>
       </div>  
