@@ -1,6 +1,6 @@
 import React from 'react';
 import '../src/sass/style.scss'
-import Form from '../src/components/Form'
+import Form from '../src/components/form'
 import Footer from '../src/components/footer'
 
 

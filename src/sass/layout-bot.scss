@@ -3,7 +3,7 @@
 .Form-wrapper {
     display: grid;
     grid-template-columns: repeat(2,fr);
-    padding: 8em 10em;
+    padding: 4em 10em;
 }
 
 .Contact-svg {
@@ -13,14 +13,30 @@
 
 .Form {
     grid-column: 2;
+    color: $darkblue;
+    font-weight: $heavy;
+    padding-right: 10em;
+    margin-top: 5em;
 
     h1 {
         text-align: center;
         font-size: 3em;
         color: $darkblue;
-        // transform: translateX(-150px);
-        margin-bottom: 2em;
+        transform: translateX(-450px);
+        margin-bottom: 1em;
     }
+
+    .button {
+        margin-left: 6em;
+    }
+}
+
+input {
+    width: 100%;
+    margin: 1em;
+    background-color: $gray;
+    padding: .5em;
+    margin-bottom: 2em;
 }
 
 //footer

@@ -3,7 +3,7 @@
 // Typography
 $font: 'Nunito-sans', sans-serif;
 $light: 400;
-$heavy: 500;
+$heavy: bold;
 
 $fontsize: 1.1em;
 $subheader: 1.8em;
@@ -44,4 +44,17 @@ body {
   font-family: $font;
   font-size: $fontsize;
   overflow-x: $hidden;
+}
+
+.button {
+  background-color: $green;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: $fontsize;
+  border-radius: 1em;
+  cursor: pointer;
 }

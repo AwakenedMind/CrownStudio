@@ -1,6 +1,6 @@
 import React from 'react'
 import SocialIcons from '../components/social'
-import Company from '../components/company'
+// import Company from '../components/company'
 
 const Footer = () => {
     return (
