@@ -1,4 +1,35 @@
 @import 'abstract';
+
+//casestudy
+
+.Study-wrapper {
+    background: $darkblue ;
+
+    h1 {
+        color: $white;
+        text-align: center;
+        padding-top: 2em;
+        margin-bottom: 5em;
+    }
+}
+
+.Study-info {
+    background: $white;
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 25%;
+
+    .Company-name {
+        padding-top: 10%;
+    }
+
+    .Company-ceo {
+        grid-column: 2;
+    }
+}
+
 //form
 
 .Form-wrapper {
