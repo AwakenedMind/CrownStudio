@@ -1,1 +1,91 @@
 @import 'abstracts';
+//form
+
+.Form-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+    padding: 4em 10em;
+}
+
+.Contact-svg {
+    grid-column: 1;
+    transform: scale(.8);
+}
+
+.Form {
+    grid-column: 2;
+    color: $darkblue;
+    font-weight: $heavy;
+    padding-right: 10em;
+    margin-top: 5em;
+
+    h1 {
+        text-align: center;
+        font-size: 3em;
+        color: $darkblue;
+        transform: translateX(-450px);
+        margin-bottom: 1em;
+    }
+
+    .button {
+        margin-left: 6em;
+    }
+}
+
+input {
+    width: 100%;
+    margin: 1em;
+    background-color: $gray;
+    padding: .5em;
+    margin-bottom: 2em;
+}
+
+//footer
+.Footer-wrapper {
+    background: $blueLinear;
+    color: $white;
+}
+
+.Footer-links {
+    @include horizontal-list;
+
+    ul li{
+        display: inline;
+        text-decoration: none;
+        padding: 4em;
+        font-size: .8em;
+      }
+}
+
+.Social {
+    padding: 0 20px;
+
+}
+
+.Footer-nav {
+    @include horizontal-list;
+    padding: 1em;
+
+ 
+    li a{
+        text-decoration: none;
+        color: $white;
+        padding: 2em;
+        font-size: 1.3em;
+    }
+}
+
+.Privacy {
+    font-size: 0.8em;
+}
+
+.Footer-company {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Footer-crown {
+    transform: scale(.3);
+    vertical-align: -1.7em;
+}

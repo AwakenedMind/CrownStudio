@@ -1,9 +1,10 @@
 /* Animations, Base, Typography, Utilities (Media Queries) */
 
 // Typography
-$font: 'Nunito Sans', sans-serif;
+$font: 'Nunito-sans', sans-serif;
+
 $light: 400;
-$heavy: 500;
+$heavy: bold;
 
 $fontsize: 1.1em;
 $subheader: 1.8em;
@@ -24,6 +25,10 @@ $gray: hsl(234°, 29%, 93%);
 $white: hsl(0, 100%, 100%);
 $black: hsl(0, 0%, 0%);
 
+//Linear
+$blueLinear: linear-gradient(hsl(237,68,33),hsl(237,22,26));
+
+
 // Misc
 $none: none;
 $hidden: hidden;
@@ -41,4 +46,17 @@ body {
   font-family: $font;
   font-size: $fontsize;
   overflow-x: $hidden;
+}
+
+.button {
+  background-color: $green;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: $fontsize;
+  border-radius: 1em;
+  cursor: pointer;
 }
