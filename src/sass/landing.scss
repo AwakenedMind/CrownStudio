@@ -1,0 +1,114 @@
+@import 'base';
+@import 'abstract';
+
+.landing-section {
+  min-height: 100vh;
+  background-image: linear-gradient($darkblue, $darkpurple);
+  position: relative;
+  // display: flex;
+  // justify-content: flex-start;
+  // flex-direction: column;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  color: white;
+}
+
+.navbar-wrapper {
+  padding-left: 1em;
+  padding-top: 1em;
+  @include flexbox(space-between);
+  width: 100%;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.navbar {
+  @include flexbox();
+}
+
+.nav-logo {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.nav-links {
+  @include flexbox;
+  list-style-type: $none;
+  padding: 0 2em;
+  font-size: 2em;
+
+}
+
+.nav-item a {
+  text-decoration: $none;
+  text-transform: uppercase;
+  color: $darkblue;
+  padding: 20px 20px;
+  align-items: center;
+
+}
+
+.landing-main {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-self: flex-start;
+
+}
+
+.landing-description-wrapper {
+  padding-bottom: 12rem;
+  height: 100%;
+  @include flexbox(center, center, column, wrap);
+
+}
+
+.landing-header {
+  font-size: 8em;
+  padding-bottom: 1.618rem;
+}
+
+.landing-description {
+  font-size: 1.6em;
+  width: 50%;
+  text-align: center;
+  padding-bottom: calc(1.618rem * 2 );
+
+}
+
+.landing-button {
+  padding: 16px 48px;
+  background: $green;
+  border-radius: 4rem;
+  color: white;
+  font-size: 1.4em;
+  border: none;
+
+}
+
+.landing-illustration-wrapper {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: flex-end;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 250px;
+  z-index: 3;
+}
+
+.rect {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  z-index: 1;
+  background: white;
+}
