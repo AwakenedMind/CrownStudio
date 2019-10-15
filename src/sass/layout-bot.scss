@@ -20,13 +20,25 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-left: 25%;
+    margin-top: -8em;
+    padding-bottom: 2em;
 
     .Company-name {
-        padding-top: 10%;
+        padding-top: 25%;
+        padding-left: 30%;
+        width: 20%;
     }
 
     .Company-ceo {
         grid-column: 2;
+        margin-left: -8em;
+    }
+
+    .Company-review {
+        padding-bottom: 1.5em;
+        width: 100%;
+        margin-left: -8em;
+        padding-top: 20%;
     }
 }
 
