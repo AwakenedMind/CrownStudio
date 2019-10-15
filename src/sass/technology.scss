@@ -9,7 +9,7 @@
 
 .technology-header {
   color: $darkblue;
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   margin-bottom: calc(1.618rem);
 }
@@ -19,4 +19,8 @@
   background: $gray;
   @include flexbox;
   height: 80px;
+}
+
+.technology-companies {
+  transform: scale(0.8);
 }

@@ -15,7 +15,7 @@ const App = () => {
       <Services />
       <Study />
       <Form />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

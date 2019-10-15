@@ -66,8 +66,9 @@
 
 .Form-wrapper {
     display: grid;
-    grid-template-columns: repeat(2,fr);
-    padding: 10em 10em;
+    grid-template-columns: repeat(2,1fr);
+    padding: 4em 10em;
+
 }
 
 .Contact-svg {
