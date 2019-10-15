@@ -18,15 +18,17 @@
     grid-column: 2;
     grid-row: 3;
     margin-left: 15em;
+    display: flex;
+    justify-content: space-evenly;
+
 
     .numbers-text{
         font-size: $sml-font;
-        color: $gray;
+        align-self: center;
     }
 
     .Leftarrow .Rightarrow {
         transform: scale(.8);
-        cursor: pointer;
     }
 }
 
@@ -43,20 +45,19 @@
     padding-bottom: 2em;
 
     .Company-name {
-        padding-top: 25%;
-        padding-left: 30%;
+        padding-top: 22%;
+        padding-left: 10%;
         width: 20%;
     }
 
     .Company-ceo {
         grid-column: 2;
-        margin-left: -8em;
+        margin-left: -15em;
     }
 
     .Company-review {
         padding-bottom: 1.5em;
-        width: 100%;
-        margin-left: -8em;
+        margin-left: -15em;
         padding-top: 20%;
     }
 }
@@ -80,6 +81,8 @@
     font-weight: $heavy;
     padding-right: 10em;
     margin-top: 5em;
+    display: flex;
+    flex-direction: column;
 
     h1 {
         text-align: center;
@@ -90,16 +93,17 @@
     }
 
     .button {
-        margin-left: 6em;
+        transform: translateX(35%);
     }
 }
 
 input {
-    width: 100%;
+    width: 90%;
     margin: 1em;
     background-color: $gray;
     padding: .5em;
     margin-bottom: 2em;
+    border: none;
 }
 
 //footer
