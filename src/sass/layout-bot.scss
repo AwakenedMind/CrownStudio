@@ -83,6 +83,7 @@
     margin-top: 5em;
     display: flex;
     flex-direction: column;
+    margin-left: -10em;
 
     h1 {
         text-align: center;
@@ -92,8 +93,12 @@
         margin-bottom: 1em;
     }
 
-    .button {
-        transform: translateX(35%);
+    .button:hover{
+        @include btn-hover;
+    }
+
+    .button:active {
+        @include btn-active;
     }
 }
 
