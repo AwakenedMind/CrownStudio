@@ -1,7 +1,7 @@
 /* Animations, Base, Typography, Utilities (Media Queries) */
 
 // Typography
-$font: 'Nunito-sans', sans-serif;
+$font: 'Nunito sans', sans-serif;
 
 $light: 400;
 $heavy: bold;
@@ -49,14 +49,12 @@ body {
 }
 
 .button {
-  background-color: $green;
-  border: none;
-  color: white;
-  padding: 15px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: $fontsize;
-  border-radius: 1em;
   cursor: pointer;
+  text-align: center;
+  padding: 16px 48px;
+  background: $green;
+  border-radius: 4rem;
+  color: white;
+  border: none;
 }
