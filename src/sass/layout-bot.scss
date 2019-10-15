@@ -1,10 +1,73 @@
 @import 'abstract';
+
+//casestudy
+
+.Study-wrapper {
+    background: $darkblue ;
+    padding-bottom: 20px;
+
+    h1 {
+        color: $white;
+        text-align: center;
+        padding-top: 2em;
+        margin-bottom: 5em;
+    }
+}
+
+.Numbers {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 15em;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    .numbers-text{
+        font-size: $sml-font;
+        align-self: center;
+    }
+
+    .Leftarrow .Rightarrow {
+        transform: scale(.8);
+    }
+}
+
+
+.Study-info {
+    position: absolute;
+    background: $white;
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 25%;
+    margin-top: -8em;
+    padding-bottom: 2em;
+
+    .Company-name {
+        padding-top: 22%;
+        padding-left: 10%;
+        width: 20%;
+    }
+
+    .Company-ceo {
+        grid-column: 2;
+        margin-left: -15em;
+    }
+
+    .Company-review {
+        padding-bottom: 1.5em;
+        margin-left: -15em;
+        padding-top: 20%;
+    }
+}
+
 //form
 
 .Form-wrapper {
     display: grid;
     grid-template-columns: repeat(2,fr);
-    padding: 4em 10em;
+    padding: 10em 10em;
 }
 
 .Contact-svg {
@@ -18,6 +81,8 @@
     font-weight: $heavy;
     padding-right: 10em;
     margin-top: 5em;
+    display: flex;
+    flex-direction: column;
 
     h1 {
         text-align: center;
@@ -28,16 +93,17 @@
     }
 
     .button {
-        margin-left: 6em;
+        transform: translateX(35%);
     }
 }
 
 input {
-    width: 100%;
+    width: 90%;
     margin: 1em;
     background-color: $gray;
     padding: .5em;
     margin-bottom: 2em;
+    border: none;
 }
 
 //footer
