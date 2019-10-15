@@ -3,7 +3,7 @@ import './sass/style.scss';
 import Landing from './components/landing'
 import Technologies from './components/technologies'
 import Services from './components/services'
-import Form from '../src/components/form'
+import Form from './components/form'
 import Footer from '../src/components/footer'
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       <Technologies />
       <Services />
       <Form />
-      <Footer/>
+      <Footer />
     </div>
   )
 }
