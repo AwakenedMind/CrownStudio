@@ -7,7 +7,7 @@ const Technologies = () => {
     <div className="technology-wrapper">
       <h3 className="technology-header">We Use The Same Technologies</h3>
       <div className="technology-rect">
-        <img src={Companies} />
+        <img src={Companies} alt="crownstudio-same-tech" className="technology-companies" />
       </div>
     </div>
   )
