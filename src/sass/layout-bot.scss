@@ -4,6 +4,7 @@
 
 .Study-wrapper {
     background: $darkblue ;
+    padding-bottom: 20px;
 
     h1 {
         color: $white;
@@ -13,7 +14,25 @@
     }
 }
 
+.Numbers {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 15em;
+
+    .numbers-text{
+        font-size: $sml-font;
+        color: $gray;
+    }
+
+    .Leftarrow .Rightarrow {
+        transform: scale(.8);
+        cursor: pointer;
+    }
+}
+
+
 .Study-info {
+    position: absolute;
     background: $white;
     box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.3);
     width: 50%;
@@ -47,7 +66,7 @@
 .Form-wrapper {
     display: grid;
     grid-template-columns: repeat(2,fr);
-    padding: 4em 10em;
+    padding: 10em 10em;
 }
 
 .Contact-svg {
